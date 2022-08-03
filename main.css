@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #F0F2F5;
+}
+
+.container2 {
+    background-color: #FFFFFF;
+    width: 400px;
+    position: relative;
+    margin: 10px;
+    padding: 16px;  
+    border-radius: 7px; 
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 17px 0px;
+    padding-left: 16px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline-color: #1877F2;
+}
+
+.login button {
+    font-family: 'helvetica';
+    font-weight: 900;
+    font-size: 1.2em;
+    padding: 14px;
+    margin-top: 9px;
+}
+
+.pwd {
+    font-family: 'sf pro display';
+    font-size: .9em;
+    border-bottom: 1px solid #DDDFE2;
+    margin-bottom: 17px;
+    padding: 17px;
+}
+
+.pwd a {
+    text-decoration: none;
+    color: #1877F2;
+}
+
+.pwd a:hover {
+    text-decoration: underline;
+}
+
+.fb-text {
+    color: #1877F2;
+    font-family: poppins;
+    font-size: 2em;
+    padding-bottom: 7px;
+}
+
+.text-container {
+    padding-bottom: 30px;
+}
+
+button {
+    background-color: #1877F2;
+    border: none;
+    width: 100%;
+    padding: 17px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #166FE5;
+    cursor: pointer;
+}
+
+.new_acct {
+    font-family: 'helvetica';
+    font-weight: 600;
+    font-size: large;
+    width: auto;
+    background: #42B72A;
+}
+
+.container2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-container h2 {
+    font-family: 'sf pro display';
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: 7px;
+}
+
+.text-container p {
+    font-family: 'helvetica';
+    color: #535353;
+}
+
+.test {
+    height: 160px;
+    background: #F5F6F7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main {
+    width: 162px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.test1 {
+    background: #FFFFFF;
+    color: #1877F2;
+    font-family: 'segoe UI';
+    font-weight: bold;
+    padding: 12px;
+    height: 46px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.account {
+    color: black;
+}
+
+.fa-plus-circle {
+    color: #1877F2;
+    position: relative;
+    top: 60px;
+}
+
+.fa-circle-xmark {
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 4px;
+    border-radius: 100%;
+    background: white;
+    color: #5E5343;
+}
+
+.fa-circle-xmark:hover {
+    font-size: 1.4em;
+    margin-top: 0px;
+    background: #5E5343;
+    color: #FFFFFF;
+}
+
+.main:hover > .fa-circle-xmark {
+    font-size: 1.4em;
+    margin-top: 0px;
+    background: #5E5343;
+    color: #FFFFFF;
+}
+
+.fa-circle {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -4px;
+    font-size: 1.5em;
+    color: #FA3E3E;
+}
+
+.acct-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 240px;
+    margin-top: 100px;
+}
+
+.main:hover {
+    box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.1), 0px 1px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+.test img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+form {
+    text-align: center;
+}
+
+.celeb {
+    margin-top: 40px;
+    font-family: 'helvetica';
+    font-size: small;
+}
+
+.celeb a {
+    text-decoration: none;
+    color: #111111;
+    font-weight: 900;
+}
+
+form {
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+    background: #ffffff;
+    position: relative;
+    top: 190px;
+    padding-top: 30px;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-family: 'helvetica';
+    font-size: .8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.upper-footer {
+    border-bottom: 1px solid #DDDFE2;
+    padding-bottom: 8px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.fa-plus {
+    border: 1px solid #CCD0D5;
+    padding: 4px 8px;
+    border-radius: 3px;
+    background: #F0F2F5;
+    color: #676E7D;
+}
+
+.lower-footer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    padding-top: 6px;
+    row-gap: 4px;
+}
+
+.meta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
